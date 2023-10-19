@@ -1,7 +1,6 @@
 import { Entity,PrimaryGeneratedColumn,Column,CreateDateColumn,UpdateDateColumn } from "typeorm";
 @Entity()
 export class RootEntity{
-    
         @PrimaryGeneratedColumn()
         ID: number;
       
@@ -9,8 +8,8 @@ export class RootEntity{
         name: string;
       
         @CreateDateColumn()
-        createdAt: Date;
+        created_at: Date;
       
         @UpdateDateColumn()
-        updateAt: Date;
+        update_at: Date;
 }

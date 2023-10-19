@@ -3,8 +3,6 @@ import { IsEmail, IsEnum, IsNotEmpty, IsString } from "class-validator";
 import { UserRole } from "src/common/enums/userRole-enum";
 
 
-
-
 export class CreateUserDto {
     @ApiProperty()
     @IsString()
